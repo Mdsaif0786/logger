@@ -2,7 +2,8 @@
   "name": "super-logger",
   "version": "1.0.0",
   "description": "This will be used for logging purpuse",
-  "main": "Logs.js",
+  "main": "./src/Logs.cjs",
+  "module": "./src/Logs.js",
   "type": "module",
   "exports": {
     ".": {
@@ -23,7 +24,10 @@
   },
   "keywords": [
     "logger",
-    "super-logger"
+    "super-logger",
+    "winston",
+    "daily-rotate",
+    "nodejs"
   ],
   "author": "saif",
   "license": "ISC",
