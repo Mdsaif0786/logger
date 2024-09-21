@@ -1,6 +1,6 @@
 {
-  "name": "super-logger",
-  "version": "1.0.0",
+  "name": "super-logger-winston",
+  "version": "1.0.1",
   "description": "This will be used for logging purpuse",
   "main": "./src/Logs.cjs",
   "module": "./src/Logs.js",

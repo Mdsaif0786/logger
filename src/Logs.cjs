@@ -27,7 +27,7 @@ class Logs {
       }))
     }
     this.logger = createLogger({
-      level: LOGGING_LEVEL || 'silly',
+      level: LOGGING_LEVEL || 'debug',
       transports: myTransPort
     })
   }
